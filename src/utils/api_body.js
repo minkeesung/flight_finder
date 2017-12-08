@@ -22,7 +22,6 @@ export default function reqBody(
           date: `${arrival_date}`
         }
       ],
-      maxPrice: `USD${budget}`,
       solutions: '5'
     }
   };

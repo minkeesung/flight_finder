@@ -1,0 +1,96 @@
+
+
+html {
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.budget {
+
+  width: 90%;
+}
+
+.numGuests {
+  float: left;
+  width: 90%;
+}
+
+.destination {
+
+  width: 170%;
+  margin-left: -50px;
+}
+
+.origin {
+  float: left;
+  width: 170%;
+  height: 110%;
+}
+
+.datetime {
+
+}
+
+.form-input {
+  float: left;
+}
+
+.trip-form {
+  font-family: 'Lato', 'Arial';
+  width: 60%;
+  margin: 0 auto;
+
+  color: #fff;
+  white-space: nowrap;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/16083767_ml.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.form-control {
+      width: 50%;
+      color: green;
+      width: 50%;
+      padding: 7px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+}
+
+
+
+.departure_date {
+  width: 100%;
+
+}
+
+.arrival_date {
+  width: 100%;
+  margin-left: 0%;
+  height: 10%;
+}
+
+.num_guests {
+  width: 40%;
+}
+
+.wrapper {
+  margin-top: 10%;
+}
+
+.has-danger {
+  color: red; 
+}

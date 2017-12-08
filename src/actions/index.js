@@ -17,14 +17,21 @@ export const fetchTrips = (values, history) => async dispatch => {
   let n = values.arrival_date.toISOString().indexOf('T')
   let arrival_date = values.arrival_date.toISOString().substring(0,n)
 
+  console.log('herrrro', reqBody(
+    convert_city_to_airportcode(values.origin),
+    convert_city_to_airportcode(values.destination),
+    departure_date,
+    arrival_date,
+    values.numGuests,
+    values.budget
+  ))
   qpx.getInfo(
     reqBody(
       convert_city_to_airportcode(values.origin),
       convert_city_to_airportcode(values.destination),
       departure_date,
       arrival_date,
-      values.numGuests,
-      values.budget
+      values.numGuests
     ),
     await function(error, flights) {
       var trips = parse_api_response(error, flights);
