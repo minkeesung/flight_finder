@@ -34,7 +34,10 @@ class TripDisplay extends Component {
     }
 
     return (
-      this.renderTrips()
+      <div>
+        <h1>List of Flights</h1>
+        {this.renderTrips()}
+      </div>
     );
   }
 }
